@@ -1,0 +1,20 @@
+<?php
+/**
+ * @var $this Lemonline_Livezhat_Block_Adminhtml_System_Config_Fieldset_Hint
+ */
+?>
+<div class="box">
+    <?php if(strlen(trim($this->helper('livezhat')->getCustomerKey())) > 0 && strlen(trim($this->helper('livezhat')->getZhatKey()))) :?>
+        <div style="background:url('https://livezhat.com/images/lz-logo.png') no-repeat left center;padding-left:160px;min-height:45px;">
+        <h4><?php echo $this->helper('livezhat')->__('Amaze your store visitors with a real-time live chat.'); ?></h4>
+        <p style="margin-bottom:0;">
+            <?php echo $this->helper('livezhat')->__('Login to your account');?>
+            <?php echo $this->helper('livezhat')->__('<a href="https://livezhat.com/ui.html?email=%s&locale=en" target="_new">here</a>', $this->helper('livezhat')->getUserEmail());?>
+        </p>
+        </div>
+    <?php else :?>
+    	<div style="background:url('https://livezhat.com/images/lz-logo.png') no-repeat left center;padding-left:160px;min-height:35px;">
+        <h4 style="padding-top: 12px;"><?php echo $this->helper('livezhat')->__('Amaze your store visitors with a real-time live chat.'); ?></h4>
+        </div>
+    <?php endif; ?>
+</div>

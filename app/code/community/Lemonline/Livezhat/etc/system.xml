@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <livezhat translate="label" module="livezhat">
+            <label><![CDATA[<div><img src="https://livezhat.com/images/lz-logo.png" alt="Livezhat" title="Livezhat" height="20" style="display:block;" /></div>]]></label>
+            <sort_order>300</sort_order>
+        </livezhat>
+    </tabs>
+    <sections>
+        <livezhat translate="label" module="livezhat">
+            <label><![CDATA[Livezhat<sup>&reg;</sup>]]></label>
+            <tab>livezhat</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <hint>
+                    <frontend_model>livezhat/adminhtml_system_config_fieldset_hint</frontend_model>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </hint>
+            	<register translate="label comment">
+                    <label>Register</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <comment><![CDATA[<b>Start here using Livezhat - 14 days for free and without any commitments!</b>]]></comment>
+                    <fields>
+                        <user_name translate="label comment">
+                            <label>User's name</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </user_name>
+                        <user_email translate="label comment">
+                            <label>User's email</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </user_email>
+                        <company_name translate="label comment">
+                            <label>Company name</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </company_name>
+                        <!-- Not used
+                        <company_id translate="label comment">
+                            <label>Company id</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <comment>Enter here company id</comment>
+                        </company_id>
+                         -->
+                        <register_btn translate="label comment">
+                            <label></label>
+                            <frontend_type>text</frontend_type>
+                            <frontend_model>livezhat/adminhtml_system_config_form_field_register</frontend_model>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </register_btn>
+                    </fields>
+                </register>
+                <general translate="label comment">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+                        <customer_key translate="label">
+                            <label>Customer Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </customer_key>
+                        <zhat_key translate="label">
+                            <label>Zhat Key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </zhat_key>
+                    </fields>
+                </general>
+            </groups>
+        </livezhat>
+    </sections>
+</config>

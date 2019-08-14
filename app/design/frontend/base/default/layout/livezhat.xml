@@ -1,0 +1,11 @@
+<layout version="0.1.0">
+    <default>
+        <block type="livezhat/html" name="livezhat" template="livezhat/livezhat.phtml" />
+        
+	<reference name="before_body_end" module="livezhat">
+            <action method="append" ifconfig="livezhat/general/active">
+                <block>livezhat</block>
+            </action>
+        </reference>	
+    </default>
+</layout>

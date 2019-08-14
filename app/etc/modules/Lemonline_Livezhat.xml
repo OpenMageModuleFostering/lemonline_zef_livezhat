@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lemonline_Livezhat>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Lemonline_Livezhat>
+    </modules>
+</config>
