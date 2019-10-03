@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Lemonline_ZEF_Livezhat",
+    "name": "openmage-module-fostering\/lemonline_zef_livezhat",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Lemonline ZEF Livezhat Magento extension",
     "authors": [
