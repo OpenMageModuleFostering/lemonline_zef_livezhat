@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Lemonline_ZEF_Livezhat",
+    "name": "OpenMageModuleFostering\/Lemonline_ZEF_Livezhat",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Lemonline ZEF Livezhat Magento extension",
     "authors": [
-    {
-        "name": "Lemonline",
-        "email": "info@lemonline.fi"
-    }
-],
+        {
+            "name": "Lemonline",
+            "email": "info@lemonline.fi"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
